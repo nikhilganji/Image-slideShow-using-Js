@@ -1,0 +1,15 @@
+h4 {
+    color: black;
+    font-style: bold;
+    font-family: "Comic Sans MS";
+}
+body {
+    background-color: darkgray;
+}
+
+/*Applying style to the image directly*/
+img{
+     border-radius : 12px;
+    box-shadow: 10px    black;
+}
+
