@@ -20,7 +20,7 @@ function changeImg(){
         i++;
     }
     else { i =0; }
-    setTimeout("changeImg()", time); // This particular function will run the changeImg function after the specified time.
+    setTimeout(changeImg, time); // This particular function will run the changeImg function after the specified time.
 }
 
 window.onload = changeImg; // This will make sure that ChangeImg function runs as soon as the document is loaded.
